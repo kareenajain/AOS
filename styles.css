@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f6e93d250a6d04f4eae9f02_Backgrounds-WFU-thumbnail-(size).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-header h1 {
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    padding-top: 12rem;
+    font-size: 4rem;
+}
+
+.main-header h5 {
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.main-header h6{
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    padding-top: 6rem;
+    font-size: 1.5rem;
+    padding-bottom: 6rem;
+}
+
+hr {
+    width: 60%;
+    opacity: 0.4;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.box {
+    text-align: center;
+    background-color: rgb(211, 139, 218);
+    color: white;
+    font-size: 1.5rem;
+    Border: 5px solid #A66CFF;
+    width: 28vw;
+    height: 250px;
+    min-width: 200px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:nth-child(even) {
+    margin-left: auto;
+}
